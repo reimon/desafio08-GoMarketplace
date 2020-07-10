@@ -37,7 +37,6 @@ const CartProvider: React.FC = ({ children }) => {
       if (ListProducts) {
         setProducts([...JSON.parse(ListProducts)]);
       }
-      console.log(ListProducts);
     }
 
     loadProducts();
